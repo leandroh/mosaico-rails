@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "paperclip", '4.3.7'
+  s.add_dependency "paperclip", '~> 5.1'
   s.add_dependency 'aws-sdk', '< 2.0'
 
 end
